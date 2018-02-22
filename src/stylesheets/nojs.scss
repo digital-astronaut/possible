@@ -1,0 +1,25 @@
+
+body{
+
+}
+
+.gallery{
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0);
+  border: 1px #FFF solid;
+  &__container{
+height: auto;
+  }
+  &__photo{
+    position:relative;
+margin-bottom: 2rem;
+    border: 1px #c8cfd5 solid;
+    }
+
+&__thumbnails{
+  visibility: hidden;
+
+}
+
+}
